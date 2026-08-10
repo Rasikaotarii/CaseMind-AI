@@ -1,0 +1,27 @@
+# CaseMind AI - Dependencies
+# ===========================
+
+# Core Framework
+streamlit>=1.36.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
+
+# Groq AI SDK access (OpenAI-compatible client)
+openai>=1.30.0
+
+# PDF Processing
+pdfplumber>=0.11.0
+
+# Image Processing (for future use)
+Pillow>=10.0.0
+
+# Date/Time Utilities
+python-dateutil>=2.9.0
+
+# PDF Report Export
+fpdf2>=2.7.9
+
+# Investigation Graph (optional — falls back to a tag-cloud view if the
+# `graphviz` system binary isn't installed on the host)
+graphviz>=0.20.3
